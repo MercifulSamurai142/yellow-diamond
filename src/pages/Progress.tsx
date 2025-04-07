@@ -31,7 +31,7 @@ const Progress = () => {
       color: "bg-brand"
     },
     {
-      name: "Best Practices",
+      name: "FMCG Fundamentals",
       value: fundamentalsProgress,
       subtitle: `Quiz score: ${fundamentalsQuizScore}%`,
       icon: <BookOpen className="h-5 w-5" />,
@@ -54,13 +54,13 @@ const Progress = () => {
   ];
 
   const completionData = [
-    { name: "Best Practices", completion: fundamentalsProgress },
+    { name: "FMCG Fundamentals", completion: fundamentalsProgress },
     { name: "Sales Finance", completion: salesFinanceProgress },
     { name: "Sales Tech", completion: salesTechProgress }
   ];
 
   const quizData = [
-    { name: "Best Practices", score: fundamentalsQuizScore },
+    { name: "FMCG Fundamentals", score: fundamentalsQuizScore },
     { name: "Sales Finance", score: salesFinanceQuizScore },
     { name: "Sales Tech", score: salesTechQuizScore }
   ];
